@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to bottom, rgba(248, 8, 8, 0.52), rgba(20, 239, 87, 0.73)), url(https://ak.picdn.net/shutterstock/videos/1013216561/thumb/1.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6954131994594712) 0%, rgba(0, 0, 0, 0.527345972568715) 53%, rgba(120, 120, 120, 0.6393907904958859) 100%), url(https://ak.picdn.net/shutterstock/videos/1013216561/thumb/1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,9 +15,8 @@ body {
 
 /* Heading */
 h1 {
-    color: red;
-    background-color: yellow;
-    font-size: 45px;
+    color: #3fb6ec;
+    font-size: 40px;
     border-radius: 10px;
     padding: 10px;
 }
@@ -44,6 +43,13 @@ h1 {
 }
 
 
+input[type=text]:disabled {
+    background: black;
+    color: white;
+    outline: none;
+    border: none;
+}
+
 
 /* Reset Button */
 #but {
@@ -51,14 +57,14 @@ h1 {
     box-sizing: border-box;
     width: 95px;
     height: 40px;
-    border: 1px solid dodgerblue;
+    border: 1px solid #3fb6ec;
     margin: auto;
     border-radius: 4px;
     font-family: Verdana,
         Geneva, Tahoma, sans-serif;
 
-    background-color: dodgerblue;
-    color: white;
+    background-color: #3fb6ec;
+    color: #0e0e0e;
     font-size: 20px;
     cursor: pointer;
     font-weight: 800;
@@ -68,8 +74,8 @@ h1 {
 
 #but:hover {
     transform: scale(1.1);
-    color: yellow;
-    background-color: red;
+    color: #ffffff;
+    background-color: #14548c;
     outline: none;
     border: none;
 }
